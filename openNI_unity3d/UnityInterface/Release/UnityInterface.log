@@ -1,0 +1,103 @@
+﻿Build started 1/22/2011 7:02:28 PM.
+     1>Project "C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\UnityInterface\UnityInterface.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\UnityInterface.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\OpenNI\Include" /I"C:\Program Files (x86)\Prime Sense\NITE\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D UNITYINTERFACE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PausePoseDetector.cpp SkeletonPoseDetector.cpp UnityInterface.cpp
+         PausePoseDetector.cpp
+     1>PausePoseDetector.cpp(48): warning C4482: nonstandard extension used: enum 'XnSkeletonJoint' used in qualified name
+     1>PausePoseDetector.cpp(49): warning C4482: nonstandard extension used: enum 'XnSkeletonJoint' used in qualified name
+         SkeletonPoseDetector.cpp
+         UnityInterface.cpp
+     1>c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(16): warning C4275: non dll-interface class 'XnHash' used as base for dll-interface class 'XnVIntHash'
+                 C:\Program Files (x86)\OpenNI\Include\XnHash.h(72) : see declaration of 'XnHash'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(16) : see declaration of 'XnVIntHash'
+     1>c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(16): warning C4275: non dll-interface class 'XnHash::ConstIterator' used as base for dll-interface class 'XnVIntHash::ConstIterator'
+                 C:\Program Files (x86)\OpenNI\Include\XnHash.h(78) : see declaration of 'XnHash::ConstIterator'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(16) : see declaration of 'XnVIntHash::ConstIterator'
+     1>c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(18): warning C4275: non dll-interface class 'XnList' used as base for dll-interface class 'XnVIntList'
+                 c:\program files (x86)\openni\include\XnList.h(45) : see declaration of 'XnList'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(18) : see declaration of 'XnVIntList'
+     1>c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(18): warning C4275: non dll-interface class 'XnList::ConstIterator' used as base for dll-interface class 'XnVIntList::ConstIterator'
+                 c:\program files (x86)\openni\include\XnList.h(48) : see declaration of 'XnList::ConstIterator'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(18) : see declaration of 'XnVIntList::ConstIterator'
+     1>c:\program files (x86)\prime sense\nite\include\XnVMessageListener.h(169): warning C4275: non dll-interface class 'XnThreadSafeQueue' used as base for dll-interface class 'XnVMessageListener::XnVMessageQueue'
+                 C:\Program Files (x86)\OpenNI\Include\XnThreadSafeQueue.h(40) : see declaration of 'XnThreadSafeQueue'
+                 c:\program files (x86)\prime sense\nite\include\XnVMessageListener.h(169) : see declaration of 'XnVMessageListener::XnVMessageQueue'
+     1>c:\program files (x86)\prime sense\nite\include\XnVMessageListener.h(189): warning C4251: 'XnVMessageListener::m_UpdateCBs' : class 'XnVMessageListener::XnVMessageSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVMessageListener'
+                 c:\program files (x86)\prime sense\nite\include\XnVMessageListener.h(170) : see declaration of 'XnVMessageListener::XnVMessageSpecificEvent'
+     1>c:\program files (x86)\prime sense\nite\include\XnVMessageListener.h(190): warning C4251: 'XnVMessageListener::m_ActivateCBs' : class 'XnVEvent' needs to have dll-interface to be used by clients of class 'XnVMessageListener'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(20) : see declaration of 'XnVEvent'
+     1>c:\program files (x86)\prime sense\nite\include\XnVMessageListener.h(191): warning C4251: 'XnVMessageListener::m_DeactivateCBs' : class 'XnVEvent' needs to have dll-interface to be used by clients of class 'XnVMessageListener'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(20) : see declaration of 'XnVEvent'
+     1>c:\program files (x86)\prime sense\nite\include\XnVMessageGenerator.h(77): warning C4275: non dll-interface class 'XnHash' used as base for dll-interface class 'XnVMessageGenerator::XnVIntMessageListenerHash'
+                 c:\program files (x86)\openni\include\XnHash.h(72) : see declaration of 'XnHash'
+                 c:\program files (x86)\prime sense\nite\include\XnVMessageGenerator.h(77) : see declaration of 'XnVMessageGenerator::XnVIntMessageListenerHash'
+     1>c:\program files (x86)\prime sense\nite\include\XnVMessageGenerator.h(77): warning C4275: non dll-interface class 'XnHash::ConstIterator' used as base for dll-interface class 'XnVMessageGenerator::XnVIntMessageListenerHash::ConstIterator'
+                 c:\program files (x86)\openni\include\XnHash.h(78) : see declaration of 'XnHash::ConstIterator'
+                 c:\program files (x86)\prime sense\nite\include\XnVMessageGenerator.h(77) : see declaration of 'XnVMessageGenerator::XnVIntMessageListenerHash::ConstIterator'
+     1>c:\program files (x86)\prime sense\nite\include\XnVMessageGenerator.h(83): warning C4251: 'XnVMessageGenerator::m_Properties' : class 'XnStringsHash' needs to have dll-interface to be used by clients of class 'XnVMessageGenerator'
+                 C:\Program Files (x86)\OpenNI\Include\XnStringsHash.h(120) : see declaration of 'XnStringsHash'
+     1>c:\program files (x86)\prime sense\nite\include\XnVGesture.h(103): warning C4251: 'XnVGesture::m_StartRecognizeCBs' : class 'XnVGesture::XnVGestureStartRecognizeSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVGesture'
+                 c:\program files (x86)\prime sense\nite\include\XnVGesture.h(102) : see declaration of 'XnVGesture::XnVGestureStartRecognizeSpecificEvent'
+     1>c:\program files (x86)\prime sense\nite\include\XnVGesture.h(104): warning C4251: 'XnVGesture::m_RecognizeCBs' : class 'XnVGesture::XnVGestureRecognizeSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVGesture'
+                 c:\program files (x86)\prime sense\nite\include\XnVGesture.h(101) : see declaration of 'XnVGesture::XnVGestureRecognizeSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(281): warning C4251: 'XnVPointControl::m_PointCreateCBs' : class 'XnVPointControl::XnVHandPointContextSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVPointControl'
+                 C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(275) : see declaration of 'XnVPointControl::XnVHandPointContextSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(282): warning C4251: 'XnVPointControl::m_PointUpdateCBs' : class 'XnVPointControl::XnVHandPointContextSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVPointControl'
+                 C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(275) : see declaration of 'XnVPointControl::XnVHandPointContextSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(283): warning C4251: 'XnVPointControl::m_PointDestroyCBs' : class 'XnVUintSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVPointControl'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(23) : see declaration of 'XnVUintSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(285): warning C4251: 'XnVPointControl::m_PrimaryPointCreateCBs' : class 'XnVPointControl::XnVHandPointContextPointSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVPointControl'
+                 C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(278) : see declaration of 'XnVPointControl::XnVHandPointContextPointSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(286): warning C4251: 'XnVPointControl::m_PrimaryPointUpdateCBs' : class 'XnVPointControl::XnVHandPointContextSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVPointControl'
+                 C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(275) : see declaration of 'XnVPointControl::XnVHandPointContextSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(287): warning C4251: 'XnVPointControl::m_PrimaryPointReplaceCBs' : class 'XnVPointControl::XnVUintHandPointContextSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVPointControl'
+                 C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(279) : see declaration of 'XnVPointControl::XnVUintHandPointContextSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(288): warning C4251: 'XnVPointControl::m_PrimaryPointDestroyCBs' : class 'XnVUintSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVPointControl'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(23) : see declaration of 'XnVUintSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(290): warning C4251: 'XnVPointControl::m_NoPointsCBs' : class 'XnVEvent' needs to have dll-interface to be used by clients of class 'XnVPointControl'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(20) : see declaration of 'XnVEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(292): warning C4251: 'XnVPointControl::m_HandsUpdateCBs' : class 'XnVPointControl::XnVMultipleHandsSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVPointControl'
+                 C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointControl.h(276) : see declaration of 'XnVPointControl::XnVMultipleHandsSpecificEvent'
+     1>c:\program files (x86)\prime sense\nite\include\XnVMultiItemHysteresis1D.h(144): warning C4251: 'XnVMultiItemHysteresis1D::m_ItemSelectCBs' : class 'XnVIntSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVMultiItemHysteresis1D'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(22) : see declaration of 'XnVIntSpecificEvent'
+     1>c:\program files (x86)\prime sense\nite\include\XnVSlider1D.h(235): warning C4251: 'XnVSlider1D::m_ValueChangeCBs' : class 'XnVFloatSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVSlider1D'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(24) : see declaration of 'XnVFloatSpecificEvent'
+     1>c:\program files (x86)\prime sense\nite\include\XnVSlider1D.h(236): warning C4251: 'XnVSlider1D::m_OffAxisMovementCBs' : class 'XnVDirectionSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVSlider1D'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(25) : see declaration of 'XnVDirectionSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVSelectableSlider1D.h(335): warning C4251: 'XnVSelectableSlider1D::m_ItemHoverCBs' : class 'XnVIntSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVSelectableSlider1D'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(22) : see declaration of 'XnVIntSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVSelectableSlider1D.h(336): warning C4251: 'XnVSelectableSlider1D::m_ItemSelectCBs' : class 'XnVIntDirectionSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVSelectableSlider1D'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(30) : see declaration of 'XnVIntDirectionSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVSelectableSlider1D.h(337): warning C4251: 'XnVSelectableSlider1D::m_ScrollCBs' : class 'XnVFloatSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVSelectableSlider1D'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(24) : see declaration of 'XnVFloatSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVSelectableSlider1D.h(337): warning C4251: 'XnVSelectableSlider1D::m_ValueChangeCBs' : class 'XnVFloatSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVSelectableSlider1D'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(24) : see declaration of 'XnVFloatSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVSelectableSlider1D.h(338): warning C4251: 'XnVSelectableSlider1D::m_OffAxisMovementCBs' : class 'XnVDirectionSpecificEvent' needs to have dll-interface to be used by clients of class 'XnVSelectableSlider1D'
+                 c:\program files (x86)\prime sense\nite\include\XnVNiteEvents.h(25) : see declaration of 'XnVDirectionSpecificEvent'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointDenoiser.h(106): warning C4275: non dll-interface class 'XnHash' used as base for dll-interface class 'XnVPointDenoiser::XnVIntLocalHash'
+                 c:\program files (x86)\openni\include\XnHash.h(72) : see declaration of 'XnHash'
+                 C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointDenoiser.h(106) : see declaration of 'XnVPointDenoiser::XnVIntLocalHash'
+     1>C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointDenoiser.h(106): warning C4275: non dll-interface class 'XnHash::ConstIterator' used as base for dll-interface class 'XnVPointDenoiser::XnVIntLocalHash::ConstIterator'
+                 c:\program files (x86)\openni\include\XnHash.h(78) : see declaration of 'XnHash::ConstIterator'
+                 C:\Program Files (x86)\Prime Sense\NITE\Include\XnVPointDenoiser.h(106) : see declaration of 'XnVPointDenoiser::XnVIntLocalHash::ConstIterator'
+     1>UnityInterface.cpp(466): warning C4244: 'argument' : conversion from 'double' to 'XnFloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\\Bin\UnityInterface.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenNI\Lib" /LIBPATH:"C:\Program Files (x86)\Prime Sense\NITE\Lib" OpenNI.lib XnVNite.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\UnityInterface.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\Bin\UnityInterface.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\\Bin\UnityInterface.lib" /MACHINE:X86 /DLL Release\PausePoseDetector.obj
+         Release\SkeletonPoseDetector.obj
+         Release\UnityInterface.obj
+            Creating library C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\\Bin\UnityInterface.lib and object C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\\Bin\UnityInterface.exp
+         Generating code
+         Finished generating code
+         UnityInterface.vcxproj -> C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\\Bin\UnityInterface.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\\Bin\UnityInterface.dll;#2" /manifest Release\UnityInterface.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\UnityInterface.unsuccessfulbuild".
+         Touching "Release\UnityInterface.lastbuildstate".
+     1>Done Building Project "C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\UnityInterface\UnityInterface.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.71

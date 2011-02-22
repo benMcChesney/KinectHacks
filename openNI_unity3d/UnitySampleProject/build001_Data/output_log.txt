@@ -1,0 +1,49 @@
+Mono path[0] = 'C:/Users/ben.mcchesney/Downloads/OpenNI-UnityWrapper-0f5d676/OpenNI-UnityWrapper-0f5d676/UnitySampleProject/build001_Data/Managed'
+Mono path[1] = 'C:/Users/ben.mcchesney/Downloads/OpenNI-UnityWrapper-0f5d676/OpenNI-UnityWrapper-0f5d676/UnitySampleProject/build001_Data/Mono'
+Direct3D:
+    Version:  Direct3D 9.0c [igdumdx32.dll 8.15.10.1986]
+    Renderer: Intel(R) Graphics Media Accelerator HD
+    Vendor:   Intel
+    VRAM:     4095 MB
+    Caps:     Shader=30 DepthRT=1 NativeDepth=0 NativeShadow=1 DF16=0 DF24=0 INTZ=0 RAWZ=0 NULL=0 RESZ=0 SlowINTZ=0
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<I> Initializing (RawInput).
+<RI> Input initialized.
+Non platform assembly: data-02C769D0 (this message is harmless)
+Non platform assembly: data-02CD98F8 (this message is harmless)
+Non platform assembly: data-02CDD418 (this message is harmless)
+Non platform assembly: data-02CDE910 (this message is harmless)
+Waiting for users to calibrate
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Nite:Start()
+ 
+(Filename: ..\..\Runtime\Export\Generated\BaseClass.cpp Line: 2528)
+
+[1] New user
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Nite:OnNewUser(UInt32)
+NiteWrapper:Update(Boolean)
+Nite:Update()
+ 
+(Filename: ..\..\Runtime\Export\Generated\BaseClass.cpp Line: 2528)
+
+[1] Calibration started
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Nite:OnCalibrationStarted(UInt32)
+NiteWrapper:Update(Boolean)
+Nite:Update()
+ 
+(Filename: ..\..\Runtime\Export\Generated\BaseClass.cpp Line: 2528)
+
+[1] Calibration success
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Nite:OnCalibrationSuccess(UInt32)
+NiteWrapper:Update(Boolean)
+Nite:Update()
+ 
+(Filename: ..\..\Runtime\Export\Generated\BaseClass.cpp Line: 2528)
+

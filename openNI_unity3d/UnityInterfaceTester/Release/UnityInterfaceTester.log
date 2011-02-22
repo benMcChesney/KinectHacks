@@ -1,0 +1,27 @@
+﻿Build started 1/22/2011 7:02:32 PM.
+     1>Project "C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\UnityInterfaceTester\UnityInterfaceTester.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\UnityInterfaceTester.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\OpenNI\Include" /I"C:\Program Files (x86)\Prime Sense\NITE\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt tester.cpp
+         tester.cpp
+     1>tester.cpp(75): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : see declaration of 'kbhit'
+     1>tester.cpp(77): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\\Bin\UnityInterfaceTester.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\UnityInterfaceTester.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\Bin\UnityInterfaceTester.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\\Bin\UnityInterfaceTester.lib" /MACHINE:X86 Release\tester.obj
+         "C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\Bin\UnityInterface.lib"
+         Generating code
+         Finished generating code
+         UnityInterfaceTester.vcxproj -> C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\\Bin\UnityInterfaceTester.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\\Bin\UnityInterfaceTester.exe;#1" /manifest Release\UnityInterfaceTester.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\UnityInterfaceTester.unsuccessfulbuild".
+         Touching "Release\UnityInterfaceTester.lastbuildstate".
+     1>Done Building Project "C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\UnityInterfaceTester\UnityInterfaceTester.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96

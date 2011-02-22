@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UnityInterface">
+</Property><Property Name="Solution File" Value="C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\UnityInterface.sln">
+</Property><Property Name="Date" Value="Saturday, January 22, 2011">
+</Property><Property Name="Time" Value="19:01 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="UnityInterface.sln" Description="File successfully backed up as C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\UnityInterface.sln.old">
+</Event><Event ErrorLevel="0" Project="UnityInterface" Source="UnityInterface\UnityInterface.vcproj" Description="Converting project file 'C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\UnityInterface\UnityInterface.vcproj'.">
+</Event><Event ErrorLevel="1" Project="UnityInterface" Source="UnityInterface\UnityInterface.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="UnityInterface" Source="UnityInterface\UnityInterface.vcproj" Description="Done converting to new project file 'C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\UnityInterface\UnityInterface.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="UnityInterface" Source="UnityInterface\UnityInterface.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UnityInterfaceTester" Source="UnityInterfaceTester\UnityInterfaceTester.vcproj" Description="Converting project file 'C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\UnityInterfaceTester\UnityInterfaceTester.vcproj'.">
+</Event><Event ErrorLevel="1" Project="UnityInterfaceTester" Source="UnityInterfaceTester\UnityInterfaceTester.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="UnityInterfaceTester" Source="UnityInterfaceTester\UnityInterfaceTester.vcproj" Description="Done converting to new project file 'C:\Users\ben.mcchesney\Downloads\OpenNI-UnityWrapper-0f5d676\OpenNI-UnityWrapper-0f5d676\UnityInterfaceTester\UnityInterfaceTester.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="UnityInterfaceTester" Source="UnityInterfaceTester\UnityInterfaceTester.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UnityInterface.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="UnityInterface.sln" Description="Converted">
+</Event></UpgradeLog>
