@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	D96DFC5B12B5477A00C8B43C /* stl_list.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_list.h;
+		path = "/usr/include/c++/4.2.1/bits/stl_list.h";
+		sourceTree = "<absolute>";
+	};
+	D96DFC6512B5483800C8B43C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D96DFC5B12B5477A00C8B43C /* stl_list.h */;
+		name = "stl_list.h: 134";
+		rLen = 0;
+		rLoc = 4652;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 4289;
+	};
+	D989261912B444650050048E /* TuioKinect */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TuioKinect;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	D989263F12B4446B0050048E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D989264012B4446B0050048E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D989264712B444B10050048E /* freenect_internal.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1638}}";
+			sepNavSelRange = "{996, 0}";
+			sepNavVisRange = "{1157, 1376}";
+		};
+	};
+	D98926A312B44D510050048E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D989264712B444B10050048E /* freenect_internal.h */;
+		name = "freenect_internal.h: 21";
+		rLen = 0;
+		rLoc = 996;
+		rType = 0;
+		vrLen = 1376;
+		vrLoc = 1157;
+	};
+	D9B519F312B5B161006B7135 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	D9B51AB912B5C22A006B7135 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* TuioKinect.h */;
+		name = "TuioKinect.h: 85";
+		rLen = 0;
+		rLoc = 2162;
+		rType = 0;
+		vrLen = 823;
+		vrLoc = 1380;
+	};
+	D9B51ABE12B5C2A9006B7135 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* TuioKinect.cpp */;
+		name = "TuioKinect.cpp: 304";
+		rLen = 0;
+		rLoc = 8372;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 9131;
+	};
+	D9B51ABF12B5C2A9006B7135 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* TuioKinect.h */;
+		name = "TuioKinect.h: 87";
+		rLen = 0;
+		rLoc = 2191;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 1249;
+	};
+	D9B51AD112B5C349006B7135 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* TuioKinect.cpp */;
+		name = "TuioKinect.cpp: 304";
+		rLen = 0;
+		rLoc = 8372;
+		rType = 0;
+		vrLen = 1162;
+		vrLoc = 9131;
+	};
+	D9B51AD212B5C349006B7135 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* TuioKinect.h */;
+		name = "TuioKinect.h: 87";
+		rLen = 0;
+		rLoc = 2191;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 1202;
+	};
+	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D989261912B444650050048E /* TuioKinect */;
+		activeTarget = E4B69B5A0A3A1756003C02F2 /* TuioKinect */;
+		addToTargets = (
+			E4B69B5A0A3A1756003C02F2 /* TuioKinect */,
+		);
+		codeSenseManager = D989264012B4446B0050048E /* Code sense */;
+		executables = (
+			D989261912B444650050048E /* TuioKinect */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 313903796;
+			PBXWorkspaceStateSaveDate = 313903796;
+		};
+		perUserProjectItems = {
+			D96DFC6512B5483800C8B43C = D96DFC6512B5483800C8B43C /* PBXTextBookmark */;
+			D98926A312B44D510050048E = D98926A312B44D510050048E /* PBXTextBookmark */;
+			D9B519F312B5B161006B7135 = D9B519F312B5B161006B7135 /* PBXTextBookmark */;
+			D9B51AB912B5C22A006B7135 = D9B51AB912B5C22A006B7135 /* PBXTextBookmark */;
+			D9B51ABE12B5C2A9006B7135 = D9B51ABE12B5C2A9006B7135 /* PBXTextBookmark */;
+			D9B51ABF12B5C2A9006B7135 = D9B51ABF12B5C2A9006B7135 /* PBXTextBookmark */;
+			D9B51AD112B5C349006B7135 = D9B51AD112B5C349006B7135 /* PBXTextBookmark */;
+			D9B51AD212B5C349006B7135 = D9B51AD212B5C349006B7135 /* PBXTextBookmark */;
+		};
+		sourceControlManager = D989263F12B4446B0050048E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E4B69B5A0A3A1756003C02F2 /* TuioKinect */ = {
+		activeExec = 0;
+		executables = (
+			D989261912B444650050048E /* TuioKinect */,
+		);
+	};
+	E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 545}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 419}";
+		};
+	};
+	E4B69E1E0A3A1BDC003C02F2 /* TuioKinect.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1482, 5252}}";
+			sepNavSelRange = "{8372, 0}";
+			sepNavVisRange = "{9131, 1162}";
+			sepNavWindowFrame = "{{15, 155}, {1048, 718}}";
+		};
+	};
+	E4B69E1F0A3A1BDC003C02F2 /* TuioKinect.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {989, 1183}}";
+			sepNavSelRange = "{2191, 0}";
+			sepNavVisRange = "{1202, 1001}";
+			sepNavWindowFrame = "{{15, 155}, {1048, 718}}";
+		};
+	};
+}
